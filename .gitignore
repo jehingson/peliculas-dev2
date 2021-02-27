@@ -1,0 +1,4 @@
+.env
+.text
+node_modules
+/node_modules

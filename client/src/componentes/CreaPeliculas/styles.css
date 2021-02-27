@@ -1,0 +1,46 @@
+.crear-pelicula{
+  padding: .5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+}
+.crear-pelicula > h1{
+  margin-bottom: 25px;
+}
+.crear-pelicula > img{
+  position: absolute;
+  right: 0;
+  width: 13rem;
+  height: 6rem;
+  margin-top: -4rem;
+  margin-right: 5rem;
+  object-fit: fill;
+}
+.crear-pelicula > form{
+  max-width: 90%;
+  margin:0 auto ;
+}
+.row{
+  margin: 14px 0;
+  display: flex;
+  flex-direction: column;
+}
+.row > input, .row > select{
+  height: 28px;
+  border: none; 
+}
+.row > textarea{
+  height: 100px;
+}
+
+.crear-pelicula > form > button{
+  margin-top: .5rem;
+  max-width: 170px;
+  width: 100%;
+  background: #d6fb02;
+  border: none;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}

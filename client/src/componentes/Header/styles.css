@@ -1,0 +1,22 @@
+.header{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+}
+
+.header > li{
+  padding: 0 10px;
+
+}
+.header > li > a{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.header > li:hover > a{
+  color: #d9ff04;
+}
